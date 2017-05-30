@@ -80,4 +80,5 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **30.05.16:** Rebase to alpine 3.6.
 + **12.12.16:** Initial Release.

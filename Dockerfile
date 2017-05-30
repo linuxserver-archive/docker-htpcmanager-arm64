@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python.arm64
+FROM lsiobase/alpine.python.arm64:3.6
 MAINTAINER sparklyballs
 
 # set version label
@@ -12,13 +12,13 @@ RUN \
 	cherrypy && \
 
 # cleanup
- rm -rf \
+rm -rf \
 	/root/.cache \
-	/tmp/*
+/tmp/*
 
-# add local files
+# add local files
 COPY root/ /
 
-# ports and volumes
+# ports and volumes
 EXPOSE 8085
 VOLUME /config
