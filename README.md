@@ -80,6 +80,7 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **17.08.18:** Rebase to alpine 3.8.
 + **10.01.18:** Rebase to alpine 3.7.
 + **20.07.17:** Internal git pull instead of at runtime.
 + **30.05.16:** Rebase to alpine 3.6.
